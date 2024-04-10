@@ -1,7 +1,7 @@
 import React from 'react';
 import {Alert, Space} from "antd";
-import {useAppDispatch, useAppSelector} from "../hooks/redux";
-import {setError} from "../error-reducer";
+import {useAppDispatch, useAppSelector} from "../app/hooks/redux";
+import {setError} from "../app/reducer/error-reducer";
 
 export const ErrorSnackbar = () => {
     const dispatch = useAppDispatch()
